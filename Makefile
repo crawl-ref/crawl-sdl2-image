@@ -10,7 +10,7 @@ ifndef V
 endif
 endif
 
-LIB    = libSDL_image.a
+LIB    = libSDL2_image.a
 AR    ?= ar
 CC    ?= gcc
 RANLIB?= ranlib
