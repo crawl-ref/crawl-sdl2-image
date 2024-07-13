@@ -15,6 +15,8 @@
  */
 
 #define JPEG_INTERNALS
+
+#include <unistd.h>
 #include "jinclude.h"
 #include "jpeglib.h"
 #include "jmemsys.h"		/* import the system-dependent declarations */
